@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		1B9043EE8828D4DD9218D094 /* libPods-RottenFruit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 51C50A127B48B50F2892EF3D /* libPods-RottenFruit.a */; };
 		2623B2701B31536D001A86E9 /* MovieCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2623B26F1B31536D001A86E9 /* MovieCell.m */; };
+		2623B2751B31F47B001A86E9 /* week1.gif in Resources */ = {isa = PBXBuildFile; fileRef = 2623B2741B31F47B001A86E9 /* week1.gif */; };
 		266ADA481B3008F200DE58CB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 266ADA471B3008F200DE58CB /* main.m */; };
 		266ADA4B1B3008F200DE58CB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 266ADA4A1B3008F200DE58CB /* AppDelegate.m */; };
 		266ADA4E1B3008F200DE58CB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 266ADA4D1B3008F200DE58CB /* ViewController.m */; };
@@ -32,6 +33,7 @@
 /* Begin PBXFileReference section */
 		2623B26E1B31536D001A86E9 /* MovieCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MovieCell.h; sourceTree = "<group>"; };
 		2623B26F1B31536D001A86E9 /* MovieCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MovieCell.m; sourceTree = "<group>"; };
+		2623B2741B31F47B001A86E9 /* week1.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = week1.gif; path = ../week1.gif; sourceTree = "<group>"; };
 		266ADA421B3008F200DE58CB /* RottenFruit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RottenFruit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		266ADA461B3008F200DE58CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		266ADA471B3008F200DE58CB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -82,6 +84,7 @@
 		266ADA391B3008F200DE58CB = {
 			isa = PBXGroup;
 			children = (
+				2623B2741B31F47B001A86E9 /* week1.gif */,
 				266ADA441B3008F200DE58CB /* RottenFruit */,
 				266ADA5E1B3008F200DE58CB /* RottenFruitTests */,
 				266ADA431B3008F200DE58CB /* Products */,
@@ -237,6 +240,7 @@
 			files = (
 				266ADA511B3008F200DE58CB /* Main.storyboard in Resources */,
 				266ADA561B3008F200DE58CB /* LaunchScreen.xib in Resources */,
+				2623B2751B31F47B001A86E9 /* week1.gif in Resources */,
 				266ADA531B3008F200DE58CB /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

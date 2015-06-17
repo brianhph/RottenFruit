@@ -103,7 +103,9 @@
     messageLabel.text = @"Network Error";
     [netWorkError addSubview:messageLabel];
     
+    
     [[UIApplication sharedApplication].keyWindow addSubview:netWorkError];
+    
 }
 
 -(void)removeErrorView{
@@ -169,7 +171,7 @@
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
-    return 100;
+    return self.movies.count;
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
